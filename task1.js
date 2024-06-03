@@ -45,4 +45,5 @@ const biodata = {
     ],
     interestInCoding: true,
 }
-console.log(biodata.skills[2])
+
+console.log(biodata.skills[2].level)
