@@ -15,10 +15,11 @@ let data = {
 }
 
 // mengubah data dengan spread operator
-data = {...data,name:"syarif",email:"syarif.khalid@gmail.com", hobby:"sepak bola"}
-console.log(data)
+let data1 = {...data,name:"syarif",email:"syarif.khalid@gmail.com", hobby:"sepak bola"}
+console.log(data1)
+
 
 // mengambil data street dan city
-const {street, suit, city, zipcode} = data.address
+const {street, city} = data.address
 console.log(street)
 console.log(city)
